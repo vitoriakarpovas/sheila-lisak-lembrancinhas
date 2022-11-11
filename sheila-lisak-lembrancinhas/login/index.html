@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Login | Sheilalisak</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css" />
+</head>
+  
+<body>
+  <header>
+    <a href="./../index.html" class="logo">My Logo</a>
+    <ul class="navigation">
+      <li><a href="./../index.html#home">Home</a></li>
+      <li><a href="./../index.html#quemsoueu">Quem Sou Eu</a></li>
+      <li><a href="./../vitrine/">Produtos</a></li>
+      <li><a href="./../contato/">Contato</a></li>
+    </ul>
+    <ul class="create">
+      <li><a href="/login/">Login | Cadastro</a></li>
+    </ul>
+</header>
+  <div class="container">
+    <div class="blueBg">
+      <div class="box signin">
+        <h2>Já possui uma conta?</h2>
+        <button class="signinBtn">Entre</button>
+      </div>
+      <div class="box signup">
+        <h2>Não possui uma conta?</h2>
+        <button class="signupBtn">Cadastre-se</button>
+      </div>
+    </div>
+    <div class="formBx">
+      <div class="form signinForm">
+        <form id="login-form">
+          <h3>Log In</h3>
+          <input id="login" name="username" type="text" placeholder="E-Mail"></input>
+          <input id="senha" name="password" type="password" placeholder="Senha"></input>
+          <input type="submit" value="Entrar" id="login-form-submit"></input>
+          <a href="#" class="forgot">Esqueceu a Senha?</a>
+        </form>
+      </div>
+
+      <div class="form signupForm">
+        <form>
+          <h3>Cadastro</h3>
+          <input id="user" type="text" placeholder="Usuário"></input>
+          <input id="email" type="text" placeholder="E-Mail"></input>
+          <input id="password" type="password" placeholder="Senha"></input>
+          <input id="confirmPassword" type="password" placeholder="Confirme a Senha"></input>
+          <input type="submit" value="Registre-se"></input>
+        </form>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+  <script src="https://unpkg.com/sweetalert@2.1.2/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
