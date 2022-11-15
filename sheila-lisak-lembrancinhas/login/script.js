@@ -1,5 +1,3 @@
-const fs = require('fs');
-
 // Page
 
 const signinBtn = document.querySelector('.signinBtn');
